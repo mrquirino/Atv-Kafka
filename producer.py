@@ -7,9 +7,9 @@ if __name__ == '__main__':
 
     config = {
         # Servidor BootStrap, Usuário e Senha
-        'bootstrap.servers': '',
-        'sasl.username':     '',
-        'sasl.password':     '',
+        'bootstrap.servers': 'pkc-619z3.us-east1.gcp.confluent.cloud:9092',
+        'sasl.username':     '443FUC7CAQVLZQQO',
+        'sasl.password':     'cfltnrg16R7F6f/uh8dX2BMZVNXFbYhlEEqAEpz1IasN86hZy+KbxcHNMEkjuEYA',
 
         # Propriedades Padrão do Confluent
         'security.protocol': 'SASL_SSL',
@@ -23,7 +23,7 @@ if __name__ == '__main__':
     producer = Producer(config)
     
     # Nome do Tópico
-    topic = "NOME_TOPICO"
+    topic = "vendas_online"
 
     # Função opcional de devolução.
     # É chamada por poll() e flush()
