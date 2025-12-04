@@ -35,8 +35,8 @@ if __name__ == '__main__':
                 topic=msg.topic(), key=msg.key().decode('utf-8'), value=msg.value().decode('utf-8')))
 
     # Produz dados combinando valores das listas aleatoriamente.
-    user_ids = ['psilva', 'smanoel', 'jpires', 'jbernardo', 'hmoraes', 'fmilagres']
-    products = ['Camisa do Reinaldo', 'Rádio Relogio', 'Bermuda Praia', 'Mouse', 'Teclado']
+    user_ids = ['psilva', 'smanoel', 'jpires', 'jbernardo', 'hmoraes', 'fmilagres','irineu','zedamanga','pó','marquinhos','osvaldos']
+    products = ['Camisa do Reinaldo', 'Rádio Relogio', 'Bermuda Praia', 'Mouse', 'Teclado','Chocolate','Carro','Casa','Cachorro','Panela','Lampada','Cabelo']
 
     count = 0
     for _ in range(10):
